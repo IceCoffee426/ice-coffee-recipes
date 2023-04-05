@@ -1,6 +1,6 @@
 # Iced Coffee Recipes
 
-A recipes website: the first project as part of [The Odin Project](https://www.theodinporject.com)'s HTML and CSS course. As I have learnt more about web design, I have practiced on it and added more.
+A recipes website: the first project as part of [The Odin Project](https://www.theodinporject.com)'s HTML and CSS course. As I have learnt more about web design, I have practiced on it and added more. [Live preview](https://icecoffee426.github.io/ice-coffee-recipes).
 
 ## Description
 

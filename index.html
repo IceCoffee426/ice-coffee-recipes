@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iced Coffee Recipes | IceCoffee426</title>
+    <link rel="icon" type="image/x-icon" href="./images/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <!-- Header and nav menu mobile-->
+    <header class="mobile">
+      <button id="burger" class="burger material-symbols-outlined">menu</button>
+      <h1 class="logo">IceCoffee426</h1>
+      <nav>
+        <ul data-nav-menu-mobile>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li>
+            <a data-dropdown-btn-mobile href="#">Recipes▼</a>
+            <ul data-dropdown-mobile>
+              <li>
+                <a href="#">Caramel Macchiato</a>
+              </li>
+              <li>
+                <a href="#">Vanilla Iced Coffee</a>
+              </li>
+              <li>
+                <a data-dropdown-btn-mobile href="#">Iced Mocha▼</a>
+                <ul data-dropdown-mobile>
+                  <li><a href="#">Regular</a></li>
+                  <li><a href="#">Cinnamon</a></li>
+                  <li><a href="#">White Choc</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <li><a href="#">Flexbox</a></li>
+          <li><a href="#">Odin</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Header and nav menu desktop-->
+    <header class="desktop">
+      <h1 class="logo">IceCoffee426</h1>
+      <nav>
+        <ul data-nav-menu-desktop>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li>
+            <a data-dropdown-btn-desktop>Recipes▼</a>
+            <ul data-dropdown-desktop>
+              <li><a href="#">Caramel Macchiato</a></li>
+              <li>
+                <a href="#">Vanilla Iced Coffee</a>
+              </li>
+              <li>
+                <a data-dropdown-btn-desktop>Iced Mocha▶</a>
+                <ul data-dropdown-desktop>
+                  <li><a href="#">Regular</a></li>
+                  <li><a href="#">Cinnamon</a></li>
+                  <li><a href="#">White Choc</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <li><a href="#">Flexbox</a></li>
+          <li><a href="#">Odin</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Introduction and about section -->
+      <section class="awesome-intro">
+        <div class="intro-left">
+          <h1>Ice Coffee Recipes!</h1>
+          <p>
+            Lorem ipsum dolor <em>sit amet</em> consectetur adipisicing elit.
+            Aperiam a eveniet autem quam et commodi, nostrum provident laborum!
+            Beatae, sed. Illum quo nostrum consequatur cupiditate.
+          </p>
+          <p>Some of the <strong>best</strong> games of all time are:</p>
+          <ul class="game-list">
+            <li>Mass Effect</li>
+            <li>Mass Effect 2</li>
+            <li>Mass Effect 3</li>
+            <li>Dragon Age: Origins</li>
+          </ul>
+        </div>
+        <div class="intro-right">
+          <img
+            src=".\images\dragon-pixabay-1.jpg"
+            alt="Dracarys."
+            class="intro-image"
+          />
+        </div>
+      </section>
+
+      <!-- Recipes section -->
+      <section class="recipes">
+        <h2>Latest Refreshing Recipes</h2>
+        <div class="recipe-box">
+          <ul>
+            <li class="recipe active">
+              <a href="#"
+                ><img
+                  src=".\images\coffee-1.jpg"
+                  alt="A tumbler of refreshing iced coffee."
+                  height="175"
+                  width="200"
+                />
+                <p>
+                  A refreshing summery iced caramel macchiato - the perfect
+                  thirst quencher!
+                </p></a
+              >
+            </li>
+            <li class="recipe">
+              <a href="#"
+                ><img
+                  src=".\images\coffee-2.jpg"
+                  alt="A tumbler of refreshing iced coffee."
+                />
+                <p>
+                  A classic vanilla iced coffee, a must-drink for any season.
+                  Add a syrup twist!
+                </p></a
+              >
+            </li>
+            <li class="recipe">
+              <a href="#"
+                ><img
+                  src=".\images\coffee-3.jpg"
+                  alt="A tumbler of refreshing iced coffee."
+                  height="175"
+                  width="200"
+                />
+                <p>
+                  An iced mocha with that little bit of extra sweetness. Nothing
+                  beats the taste.
+                </p></a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Inspirational quotes -->
+      <section class="inspiration">
+        <h3>
+          "When my blood runs black as the moonless night, and my heartbeat
+          sounds as the warriors march, only then may you say, I’ve had enough
+          coffee."
+        </h3>
+        <h4>--Thor, God of Thunder, Lover of Coffee</h4>
+      </section>
+
+      <!-- Sign up section -->
+      <section class="sign-up">
+        <div class="sign-up-box">
+          <div class="sign-up-text">
+            <h3>Send me more!</h3>
+            <h4>
+              Get more delicious iced coffee recipes in your inbox by clicking
+              on the button.
+            </h4>
+          </div>
+          <form class="sign-up-form">
+            <input
+              required
+              id="email"
+              type="email"
+              placeholder="Enter your email here"
+            />
+            <button class="sign-up-button" id="sign-up-button">Sign up!</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy;<a href="https://github.com/IceCoffee426">IceCoffee426</a></p>
+    </footer>
+  </body>
+</html>

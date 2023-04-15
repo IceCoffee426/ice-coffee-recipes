@@ -1,6 +1,6 @@
-# Iced Coffee Recipes
+# Ice Coffee Recipes
 
-A recipes website: the first project as part of [The Odin Project](https://www.theodinporject.com)'s HTML and CSS course. As I have learnt more about web design, I have practiced on it and added more. [Live preview](https://icecoffee426.github.io/ice-coffee-recipes).
+A recipes website: the first project as part of [The Odin Project](https://www.theodinporject.com)'s HTML and CSS course. As I have learnt more about web design, I have practiced on it and added more. [Live preview](https://shubsmastan.github.io/ice-coffee-recipes).
 
 ## Description
 
@@ -8,7 +8,7 @@ I learnt how to use Flexbox and various other CSS properties when I first made t
 
 ## Author
 
-[@IceCoffee426](https://github.com/icecoffee426)
+[@ShubsMastan](https://github.com/shubsmastan)
 
 ## Version History
 

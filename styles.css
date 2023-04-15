@@ -354,10 +354,19 @@ footer {
   padding: var(--padding-std);
   font-weight: var(--fw-thick);
   color: var(--clr-text-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 footer p {
   text-align: center;
+  padding: 0;
+}
+
+#github-logo {
+  padding-top: 1px;
 }
 
 /* Media queries */

@@ -1,6 +1,8 @@
 # Ice Coffee Recipes
 
-A recipes website: the first project as part of [The Odin Project](https://www.theodinporject.com)'s HTML and CSS course. As I have learnt more about web design, I have practiced on it and added more. [Live preview](https://shubsmastan.github.io/ice-coffee-recipes).
+[Live preview](https://shubsmastan.github.io/ice-coffee-recipes).<br />
+
+A recipes website: the first project as part of [The Odin Project](https://www.theodinporject.com)'s HTML and CSS course. As I have learnt more about web design, I have practiced on it and added more.
 
 ## Description
 
